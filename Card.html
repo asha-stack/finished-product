@@ -3,32 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="http://fonts.cdnfonts.com/css/sheep-sans" rel="stylesheet">
-    <link rel="stylesheet" href="Card.css">
+    <link href="http://fonts.cdnfonts.com/css/sheep-sans" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/drakolomb" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/domine" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Card.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="center">
-      <div class="property-card">
-        <a href="ai-info.html">
-          <div class="property-image">
-            <div class="property-image-title">
-              <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-            </div>
-          </div></a
-        >
-        <div class="property-description">
-          <h5>Artifial intelligence</h5>
-          <p>
-            At its heart, AI is computer programming that learns and adapts.
-          </p>
+    <div class="return-to-home">
+      <i class="	fa fa-arrow-circle-left" ></i>
+      <a  href="index.html" >Return Home</a>
+      </div>
+
+    <!-- CARDS -->
+    <div class="container">
+      <div class="card-column column-0">
+        <div class="card card-color-0">
+          <div class="border"></div>
+          <img
+            src="https://atlassianblog.wpengine.com/wp-content/uploads/2020/01/brand-4266-blog-illustration-5-questions-about-the-future-of-ai-1120x545-@2x-final.png"
+          />
+          <h1>Artificial intelligence</h1>
         </div>
-        <a href="ai-info.html">
-          <div class="property-social-icons">
-            <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-          </div>
-        </a>
+        <div class="card card-color-2">
+          <div class="border"></div>
+          <img src="https://www.raconteur.net/wp-content/uploads/2018/04/Cognitive-bias-risk-management.jpg" />
+          <h1>Bias</h1>
+        </div>
+      </div>
+      <div class="card-column column-1">
+        <div class="card card-color-1">
+          <div class="border"></div>
+          <img
+            src="https://asunow.asu.edu/sites/default/files/climateimag-banner.png"
+          />
+          <h1>Climate</h1>
+        </div>
+        <div class="card card-color-3">
+          <div class="border"></div>
+          <img
+            src="https://www.nist.gov/sites/default/files/styles/960_x_960_limit/public/images/2020/04/29/Artboard%2021.png?itok=SFRN_k6V"
+          />
+          <h1>Dataset</h1>
+        </div>
       </div>
     </div>
+
+    <div id="cover" class="cover"></div>
+
+    <div id="open-content" class="open-content">
+      <a href="#" id="close-content" class="close-content"
+        ><span class="x-1"></span><span class="x-2"></span
+      ></a>
+      <img id="open-content-image" src="" />
+      <div class="text" id="open-content-text"></div>
+    </div>
+    <script src="card.js"></script>
   </body>
 </html>

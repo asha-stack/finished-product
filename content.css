@@ -53,6 +53,7 @@
     color: #000;
   }
   button a {
+    text-decoration: none;
     color: #fdcc04;
   }
   .column-right {
